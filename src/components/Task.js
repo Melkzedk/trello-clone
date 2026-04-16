@@ -9,6 +9,7 @@ const Task = ({ task, index }) => {
           ref={provided.innerRef}
           {...provided.draggableProps}
           {...provided.dragHandleProps}
+          {this, }
           style={{
             padding: 10,
             margin: "0 0 8px 0",
