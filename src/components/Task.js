@@ -19,7 +19,6 @@ const Task = ({ task, index }) => {
         >
           {task.content}
         </div>
-        th
       )}
     </Draggable>
   );
