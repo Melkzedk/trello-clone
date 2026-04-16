@@ -19,6 +19,8 @@ const Task = ({ task, index }) => {
         >
           {task.content}
         </div>
+        throw new Error("");
+        
       )}
     </Draggable>
   );
